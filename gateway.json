@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "extra_config": {
+      "github_com/devopsfaith/krakend-gologging": {
+        "level": "ERROR",
+        "prefix": "[KRAKEND]",
+        "syslog": false,
+        "stdout": true,
+        "format": "default"
+      }
+    },
+    "timeout": "3000ms",
+    "cache_ttl": "300s",
+    "output_encoding": "json",
+    "name": "goapp",
+    "endpoints": [
+    ]
+}
